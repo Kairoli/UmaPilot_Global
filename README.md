@@ -6,7 +6,7 @@
 <p align="center"><strong>Independent Training automation &amp; inheritance planning.</strong><br>Build the parents. Shape the next ace.</p>
 
 <p align="center">
-  <a href="https://github.com/Kairoli/UmaPilot-Releases/releases/latest"><img src="assets/button-download.svg" alt="Download Windows beta" height="44"></a>
+  <a href="https://github.com/Kairoli/UmaPilot_Global/releases/latest/download/UmaPilotSetup.exe"><img src="assets/button-download.svg" alt="Download Windows beta" height="44"></a>
   <a href="https://discord.gg/7kqnzP2bKG"><img src="assets/button-discord.svg" alt="Join the Discord" height="44"></a>
   <a href="https://umapilot.com"><img src="assets/button-website.svg" alt="Explore the website" height="44"></a>
 </p>
@@ -94,20 +94,25 @@ Receive veteran results, sparks, stats and the next project step through your ow
 
 ### 1 · Download the Windows installer
 
-Open **[the latest release](https://github.com/Kairoli/UmaPilot-Releases/releases/latest)** and download **`UmaPilotSetup.exe`**. Run it and choose an empty installation folder.
+**[Download UmaPilotSetup.exe](https://github.com/Kairoli/UmaPilot_Global/releases/latest/download/UmaPilotSetup.exe)**, or open **[the latest release](https://github.com/Kairoli/UmaPilot_Global/releases/latest)** for its version, checksum and installation notes. Run the installer and use the proposed folder, or choose another empty folder.
 
 | What you need | Details |
 | :--- | :--- |
 | Operating system | Windows 10 or 11, 64-bit |
 | App window | Edge, Chrome or Brave |
-| Game account | Your own Steam account |
+| Game account | Your own Steam account with Umamusume Global in its library |
+| UmaPilot account | Google sign-in or a verified email address |
 | During execution | Keep the machine powered on and connected |
 
-The installer bundles the required runtimes. GitHub's automatic “Source code” archives are **not the installer**.
+The installer bundles Python, Node.js and the application. You do not need Git, development tools or installed game files. Allow extra disk space for installation, updates and your saved data; the current download and installed sizes are listed in each release.
+
+GitHub's automatic “Source code” archives contain this presentation repository and are **not the installer**. Only `UmaPilotSetup.exe` is needed to install; the `.sha256` and `setup-info.json` files provide verification information. The installer currently has no Authenticode publisher signature.
 
 ### 2 · Create your profile
 
-Sign up and verify your email with the code, or use Google sign-in. Add your own Steam account in UmaPilot.
+Sign up and verify your email with the code, or use Google sign-in. You can read the confirmation email on your phone or another computer, then enter the code in UmaPilot. Add your own Steam account in UmaPilot.
+
+You can sign in to your UmaPilot account on another installation and load your cloud projects and settings. Different users can share an installation; each user's workspace is kept separate.
 
 ### 3 · Build your first project
 
@@ -116,7 +121,9 @@ Set your objective, review the family and spark requirements, then start Pilot. 
 <details>
 <summary><strong>🔄 Already installed? Updating UmaPilot</strong></summary>
 
-Existing installations receive updates from inside UmaPilot. Follow the instructions in the [release notes](https://github.com/Kairoli/UmaPilot-Releases/releases) and restart when prompted.
+Existing installations check the official signed update channel when launching. Follow the app's update instructions and restart when prompted; do not install over an existing nonempty folder. Internet access is required.
+
+This repository automatically checks for a newer full installer every 30 minutes, although GitHub may delay scheduled jobs. The download button always points to its latest published installer. Installed apps use the original [UmaPilot-Releases update channel](https://github.com/Kairoli/UmaPilot-Releases/releases), so they can also update when a newer version is available there before this download mirror refreshes.
 
 </details>
 
@@ -155,12 +162,12 @@ Yes. The machine running UmaPilot must stay powered on and connected. The websit
 <details>
 <summary><strong>Where are the application source and downloads?</strong></summary>
 
-UmaPilot_Global is the project's public showcase. Application source is maintained separately. Windows installers and release notes are hosted in [UmaPilot-Releases](https://github.com/Kairoli/UmaPilot-Releases/releases).
+UmaPilot_Global is the project's public presentation and Windows download repository. Get full installers from [this repository's releases](https://github.com/Kairoli/UmaPilot_Global/releases). Application source is maintained separately; this repository is not a buildable copy of the app. Detailed application changes and the signed update feed remain in [UmaPilot-Releases](https://github.com/Kairoli/UmaPilot-Releases/releases).
 
 </details>
 
 ---
 
 <p align="center"><strong>Every goal deserves a route.</strong><br><br>
-<a href="https://umapilot.com">Website</a> &nbsp; · &nbsp; <a href="https://discord.gg/7kqnzP2bKG">Discord community</a> &nbsp; · &nbsp; <a href="https://github.com/Kairoli/UmaPilot-Releases/releases">Release notes</a><br><br>
+<a href="https://umapilot.com">Website</a> &nbsp; · &nbsp; <a href="https://discord.gg/7kqnzP2bKG">Discord community</a> &nbsp; · &nbsp; <a href="https://github.com/Kairoli/UmaPilot_Global/releases">Downloads &amp; release notes</a><br><br>
 <sub>UmaPilot is an independent project, not affiliated with or endorsed by Cygames.<br>Umamusume and game assets belong to their respective owners.</sub></p>
