@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="220" viewBox="0 0 1100 220" fill="none">
+<title>UmaPilot on Discord — beta testing, inheritance setups and development updates</title>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1100" y2="220" gradientUnits="userSpaceOnUse"><stop stop-color="#24203e"/><stop offset="1" stop-color="#111622"/></linearGradient></defs>
+<rect x=".5" y=".5" width="1099" height="219" rx="16" fill="url(#bg)" stroke="#534677"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="36" y="39" fill="#bdaaff" font-size="12" letter-spacing="2.5">UMAPILOT / COMMUNITY</text>
+<text x="36" y="85" fill="#f4f2ff" font-size="32" font-weight="700">Your next setup starts here.</text>
+<text x="36" y="119" fill="#bbb9d1" font-size="16">Beta testing. Inheritance discussions. Development updates.</text>
+<rect x="36" y="150" width="182" height="40" rx="8" fill="#bca7ff"/>
+<text x="55" y="176" fill="#19152b" font-size="14" font-weight="700">Join the Discord ↗</text>
+<path d="M778 42h213a15 15 0 0 1 15 15v38a15 15 0 0 1-15 15h-167l-28 20v-20h-18a15 15 0 0 1-15-15V57a15 15 0 0 1 15-15Z" fill="#322c4b" stroke="#665888"/>
+<circle cx="791" cy="76" r="10" fill="#bca7ff"/><path d="M818 68h152M818 83h102" stroke="#a698c5" stroke-width="6" stroke-linecap="round"/>
+<path d="M828 127h213a15 15 0 0 1 15 15v30a15 15 0 0 1-15 15h-17v17l-27-17H828a15 15 0 0 1-15-15v-30a15 15 0 0 1 15-15Z" fill="#1e323b" stroke="#38626a"/>
+<circle cx="841" cy="157" r="10" fill="#82dfca"/><path d="M868 150h147M868 165h85" stroke="#7da4a6" stroke-width="6" stroke-linecap="round"/>
+</g></svg>

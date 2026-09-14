@@ -2,65 +2,127 @@
   <a href="https://umapilot.com"><img src="assets/banner.svg" alt="UmaPilot — Your roster. Your strategy. Your Pilot." width="100%"></a>
 </p>
 
-<h1 align="center">UmaPilot — Umamusume Bot &amp; Inheritance Planner</h1>
+<h1 align="center">UmaPilot — Umamusume Global Bot</h1>
+<p align="center"><strong>Independent Training automation &amp; inheritance planning.</strong><br>Build the parents. Shape the next ace.</p>
 
 <p align="center">
-  <strong>Build the parents. Shape the next ace.</strong><br>
-  Free Umamusume training automation, built around the account you own.
+  <a href="https://github.com/Kairoli/UmaPilot-Releases/releases/latest"><img src="assets/button-download.svg" alt="Download Windows beta" height="44"></a>
+  <a href="https://discord.gg/7kqnzP2bKG"><img src="assets/button-discord.svg" alt="Join the Discord" height="44"></a>
+  <a href="https://umapilot.com"><img src="assets/button-website.svg" alt="Explore the website" height="44"></a>
 </p>
+<p align="center"><sub>FREE FEATURES &nbsp; · &nbsp; ONGOING BETA &nbsp; · &nbsp; WINDOWS 10 / 11 x64 &nbsp; · &nbsp; STEAM AUTHENTICATION</sub></p>
+<p align="center"><a href="#features">Features</a> &nbsp; / &nbsp; <a href="#screenshots">Screenshots</a> &nbsp; / &nbsp; <a href="#getting-started">Get started</a> &nbsp; / &nbsp; <a href="#questions">FAQ</a></p>
 
-<p align="center">
-  <a href="https://umapilot.com"><strong>Explore the website ↗</strong></a>
-  &nbsp; · &nbsp;
-  <a href="https://discord.gg/7kqnzP2bKG"><strong>Join the beta community ↗</strong></a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/Kairoli/UmaPilot-Releases/releases/latest"><strong>Windows downloads ↗</strong></a>
-</p>
+**UmaPilot is a free bot for Umamusume: Pretty Derby Global.** It connects inheritance planning with automated Grand Concert Independent Training: compare parent loops around your roster, set your spark requirements, and let Pilot check each result before repeating or advancing the project.
 
-<p align="center"><sub>ONGOING BETA &nbsp; / &nbsp; WINDOWS 10 &amp; 11 · x64 &nbsp; / &nbsp; STEAM AUTHENTICATION</sub></p>
+<a href="assets/pilot-dashboard.webp"><img src="assets/pilot-dashboard.webp" alt="UmaPilot dashboard with the selected inheritance project, account status and continuous training controls" width="100%"></a>
+<p align="center"><sub>Actual application screenshot · Pilot shown in standby · Click to enlarge.</sub></p>
 
----
+> **🧪 Beta testing is ongoing.** Join the community to test UmaPilot, discuss inheritance setups and help improve the next release.
 
-**UmaPilot is a free bot for Umamusume: Pretty Derby Global that connects inheritance planning with automated Grand Concert Independent Training.** Set a goal, compare parent loops, choose the sparks you need, and let Pilot check each result against your project's requirements.
+## 💬 Join the community
 
-Your plan stays connected to your progress: repeat a step when a result falls short, then move forward when the requirements are met.
+<a href="https://discord.gg/7kqnzP2bKG"><img src="assets/discord-community.svg" alt="Join UmaPilot on Discord — beta testing, inheritance setups and development updates" width="100%"></a>
 
-<a href="assets/project-overview.webp"><img src="assets/project-overview.webp" alt="UmaPilot inheritance project showing the training sequence, required sparks and saved checkpoint" width="100%"></a>
-<p align="center"><sub>Actual application capture · Your objective, training order and next action in one project.</sub></p>
+Questions about a setup? A project worth sharing? Come discuss it with us on **[the UmaPilot Discord](https://discord.gg/7kqnzP2bKG)**.
 
-## From your roster to your next run
+<a id="features"></a>
 
-| Plan the family | Run the project | Review the result |
-| :--- | :--- | :--- |
-| Compare parent loops against your roster, family compatibility and simulated skill benefit. | Attach your project and manage continuous Independent Training from the Pilot dashboard. | Check the veteran's sparks, keep the checkpoint, and repeat or advance according to your rules. |
+## ✨ Features
 
-### A route you can understand
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>🧬 Inheritance projects</h3>
+Your objective, parent family, training order and spark requirements together. Keep a checkpoint so every result has a next step.
+</td>
+<td width="50%" valign="top">
+<h3>🧠 Brain recommendations</h3>
+Compare loops using your roster, family compatibility and simulated skill benefit. Choose Best Performance, Recommended or Lowest Effort.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>🏁 Independent Training</h3>
+Let Pilot manage Grand Concert Independent Training within your project, checking whether each result meets your acceptance rules.
+</td>
+<td width="50%" valign="top">
+<h3>✨ Spark checks &amp; progress</h3>
+Repeat the current step when requirements are missing. Advance the family plan when an accepted veteran is ready.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>🖥️ Headless execution</h3>
+Direct game API communication with Steam authentication. No installed game files, visible game window or Android emulator required.
+</td>
+<td width="50%" valign="top">
+<h3>🔔 Discord notifications</h3>
+Receive veteran results, sparks, stats and the next project step through your own Discord webhook.
+</td>
+</tr>
+</table>
 
-Brain compares inheritance options using your account data and the goal you set. Choose **Best Performance**, **Recommended**, or **Lowest Effort** to balance estimated skill benefit, compatibility and the work left to build the family.
+<a id="screenshots"></a>
 
-<a href="assets/brain-recommendations.webp"><img src="assets/brain-recommendations.webp" alt="UmaPilot Brain comparing inheritance plans with Best Performance, Recommended and Lowest Effort priorities" width="100%"></a>
-<p align="center"><sub>Simulation-informed comparisons, powered by Umalator and community data. Scores are not win probabilities.</sub></p>
+## 📸 Inside UmaPilot
 
-### Your Pilot, within reach
+### Plan → Run → Review → Repeat
 
-Manage the selected project, inspect account status and control execution from one dashboard. UmaPilot communicates directly with the game API, so it does not need installed game files, a visible game window or an Android emulator.
+1. **Choose the goal.** Define the sparks your results need to carry.
+2. **Review the family.** Compare routes and inspect parents, grandparents and training order.
+3. **Start Pilot.** Run the project and let its acceptance rules determine the next step.
 
-<a href="assets/pilot-dashboard.webp"><img src="assets/pilot-dashboard.webp" alt="UmaPilot control center showing project controls and account status in standby" width="100%"></a>
-<p align="center"><sub>Actual application capture · Pilot is in standby in this screenshot.</sub></p>
+<details open>
+<summary><strong>🧬 Project overview — your family plan and next action</strong></summary>
+<br>
+<a href="assets/project-overview.webp"><img src="assets/project-overview.webp" alt="UmaPilot inheritance project with training sequence, required sparks and a saved checkpoint" width="100%"></a>
+<p><sub>Actual application screenshot · Training order, spark requirements and checkpoint in one project.</sub></p>
+</details>
 
-**Get results in Discord.** Configure your own webhook for veteran results, sparks, stats and the next project step. The machine running UmaPilot must stay on and connected; notifications do not host or remotely control your runs.
+<details>
+<summary><strong>🧠 Brain — compare performance, compatibility and effort</strong></summary>
+<br>
+<a href="assets/brain-recommendations.webp"><img src="assets/brain-recommendations.webp" alt="Brain inheritance recommendations with Best Performance, Recommended and Lowest Effort options" width="100%"></a>
+<p>Brain weighs estimated inherited-skill benefit, family compatibility and the work left to build the plan. Simulation-informed comparisons use Umalator and community data.</p>
+<p><sub>Scores compare options for your project; they are not win probabilities.</sub></p>
+</details>
 
-## Start with the beta
+<a id="getting-started"></a>
 
-1. **[Join the Discord community](https://discord.gg/7kqnzP2bKG)** for beta guidance, setup discussions and feedback.
-2. **[Open the latest release](https://github.com/Kairoli/UmaPilot-Releases/releases/latest)** and download **`UmaPilotSetup.exe`** for a fresh installation on 64-bit Windows 10 or 11. Choose an empty installation folder.
-3. **Create your UmaPilot profile**, verify your email with the code, or use Google sign-in. Add your own Steam account, then configure your first project.
+## 🚀 Getting started
 
-The installer bundles the required runtimes. Edge, Chrome or Brave is required for the app window. Existing installations receive updates from inside UmaPilot; follow the release notes for your version.
+### 1 · Download the Windows installer
 
-> **Beta testing is ongoing.** Features and setup are still being refined. Share your experience with the community to help improve the next release.
+Open **[the latest release](https://github.com/Kairoli/UmaPilot-Releases/releases/latest)** and download **`UmaPilotSetup.exe`**. Run it and choose an empty installation folder.
 
-## A few things to know
+| What you need | Details |
+| :--- | :--- |
+| Operating system | Windows 10 or 11, 64-bit |
+| App window | Edge, Chrome or Brave |
+| Game account | Your own Steam account |
+| During execution | Keep the machine powered on and connected |
+
+The installer bundles the required runtimes. GitHub's automatic “Source code” archives are **not the installer**.
+
+### 2 · Create your profile
+
+Sign up and verify your email with the code, or use Google sign-in. Add your own Steam account in UmaPilot.
+
+### 3 · Build your first project
+
+Set your objective, review the family and spark requirements, then start Pilot. **[Join Discord](https://discord.gg/7kqnzP2bKG)** for beta guidance and setup discussions.
+
+<details>
+<summary><strong>🔄 Already installed? Updating UmaPilot</strong></summary>
+
+Existing installations receive updates from inside UmaPilot. Follow the instructions in the [release notes](https://github.com/Kairoli/UmaPilot-Releases/releases) and restart when prompted.
+
+</details>
+
+<a id="questions"></a>
+
+## ❓ Questions
 
 <details>
 <summary><strong>Will UmaPilot be free?</strong></summary>
@@ -72,30 +134,33 @@ Yes. All UmaPilot features will be free, with no features locked behind a paywal
 <details>
 <summary><strong>Is Brain an AI chatbot?</strong></summary>
 
-No. Brain is a dedicated planning system that compares inheritance options using account data, family compatibility and simulation-informed skill evaluation. Its rankings help compare routes for your project; they do not guarantee race outcomes.
+No. Brain is a dedicated planning system that compares inheritance options using account data, family compatibility and simulation-informed skill evaluation. Rankings help compare routes; they do not guarantee race outcomes.
 
 </details>
 
 <details>
-<summary><strong>Do I need the game installed? Can I close my computer?</strong></summary>
+<summary><strong>Does the game need to be installed?</strong></summary>
 
-The headless Windows edition uses Steam authentication and direct API communication without installed game files or a visible game client. The machine running UmaPilot must remain powered on and connected. The website is the project's home, not a service that runs your jobs for you.
+No. The headless Windows edition uses Steam authentication and direct API communication without installed game files or a visible game client.
 
 </details>
 
 <details>
-<summary><strong>Where are the source code and downloads?</strong></summary>
+<summary><strong>Does my computer need to stay on?</strong></summary>
 
-This repository is UmaPilot's public showcase. The application source is maintained separately, and downloads are hosted in the linked UmaPilot-Releases repository. For a fresh installation, use `UmaPilotSetup.exe` from the latest release; the automatic GitHub “Source code” archives are not the installer.
+Yes. The machine running UmaPilot must stay powered on and connected. The website does not run your jobs. Discord webhooks send updates; they do not provide remote control.
+
+</details>
+
+<details>
+<summary><strong>Where are the application source and downloads?</strong></summary>
+
+UmaPilot_Global is the project's public showcase. Application source is maintained separately. Windows installers and release notes are hosted in [UmaPilot-Releases](https://github.com/Kairoli/UmaPilot-Releases/releases).
 
 </details>
 
 ---
 
-<p align="center">
-  <strong>Every goal deserves a route.</strong><br><br>
-  <a href="https://umapilot.com">umapilot.com</a> &nbsp; · &nbsp;
-  <a href="https://discord.gg/7kqnzP2bKG">Discord</a> &nbsp; · &nbsp;
-  <a href="https://github.com/Kairoli/UmaPilot-Releases/releases">Release notes</a><br><br>
-  <sub>UmaPilot is an independent project, not affiliated with or endorsed by Cygames.<br>Umamusume and game assets belong to their respective owners.</sub>
-</p>
+<p align="center"><strong>Every goal deserves a route.</strong><br><br>
+<a href="https://umapilot.com">Website</a> &nbsp; · &nbsp; <a href="https://discord.gg/7kqnzP2bKG">Discord community</a> &nbsp; · &nbsp; <a href="https://github.com/Kairoli/UmaPilot-Releases/releases">Release notes</a><br><br>
+<sub>UmaPilot is an independent project, not affiliated with or endorsed by Cygames.<br>Umamusume and game assets belong to their respective owners.</sub></p>
