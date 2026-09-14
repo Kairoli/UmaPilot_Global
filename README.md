@@ -13,7 +13,7 @@
 <p align="center"><sub>FREE FEATURES &nbsp; · &nbsp; ONGOING BETA &nbsp; · &nbsp; WINDOWS 10 / 11 x64 &nbsp; · &nbsp; STEAM AUTHENTICATION</sub></p>
 <p align="center"><a href="#features">Features</a> &nbsp; / &nbsp; <a href="#screenshots">Screenshots</a> &nbsp; / &nbsp; <a href="#getting-started">Get started</a> &nbsp; / &nbsp; <a href="#questions">FAQ</a></p>
 
-**UmaPilot is a free bot for Umamusume: Pretty Derby Global.** It connects inheritance planning with automated Grand Concert Independent Training: compare parent loops around your roster, set your spark requirements, and let Pilot check each result before repeating or advancing the project.
+**UmaPilot is a free bot for Umamusume: Pretty Derby Global.** It connects inheritance planning with automated Independent Training: compare parent loops around your roster, set your spark requirements, and let Pilot check each result before repeating or advancing the project.
 
 <a href="assets/pilot-dashboard.webp"><img src="assets/pilot-dashboard.webp" alt="UmaPilot dashboard with the selected inheritance project, account status and continuous training controls" width="100%"></a>
 <p align="center"><sub>Actual application screenshot · Pilot shown in standby · Click to enlarge.</sub></p>
