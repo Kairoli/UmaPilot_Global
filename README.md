@@ -114,6 +114,8 @@ Sign up and verify your email with the code, or use Google sign-in. You can read
 
 You can sign in to your UmaPilot account on another installation and load your cloud projects and settings. Different users can share an installation; each user's workspace is kept separate.
 
+From v0.2.7, diagnostics and usage reporting are enabled by default to help identify broken updates. You can switch this off in **Profile → Diagnostics and usage reporting**. Reports include the app version, module activity, run totals and sanitized error codes; they do not include raw logs, passwords, Steam tokens, webhook addresses or game-account names. The overview covers 30 days of activity and affected users, with 90 days of daily totals. Expired records are removed during reporting; active error groups retain their lifetime count.
+
 ### 3 · Build your first project
 
 Set your objective, review the family and spark requirements, then start Pilot. **[Join Discord](https://discord.gg/7kqnzP2bKG)** for beta guidance and setup discussions.
