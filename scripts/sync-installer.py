@@ -39,8 +39,14 @@ def main(publish=False):
     assert re.fullmatch(r'v\d+\.\d+\.\d+', version), 'Unexpected version'
     assert not source['draft'] and not source['prerelease']
     assets = {a['name']: a for a in source['assets']}
+    missing = [name for name in NAMES if name not in assets]
+    if missing:
+        # App patches can ship before (or without) a new full installer.
+        # Keep the current public installer; a later scheduled run retries.
+        print(f'{version}: full installer not available yet; keeping the current download. '
+              f'Missing: {", ".join(missing)}')
+        return
     for name in NAMES:
-        assert name in assets, f'Full installer not ready: {name}'
         assert re.fullmatch(r'sha256:[0-9a-f]{64}', assets[name].get('digest') or ''), 'Missing asset digest'
     pages = json.loads(gh('api', '--paginate', '--slurp', f'repos/{TARGET}/releases?per_page=100'))
     existing = next((r for page in pages for r in page if r['tag_name'] == version), None)

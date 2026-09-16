@@ -14,6 +14,8 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+      - name: Test installer synchronization
+        run: python3 -m unittest discover -s tests -v
       - name: Verify and publish the latest full installer
         env:
           GH_TOKEN: ${{ github.token }}
